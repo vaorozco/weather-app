@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/weather.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/style.css" />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!-- <div id="app"></div> -->
+    <header class="header">
+      <input type="text" placeholder="Search by Zip Code or City">
+      <button>Zip Code or City</button>
+
+    </header>
+      <!-- <h1 id="header" class="title">Weather Forecast</h1> -->
+      <div class="container">
+        <div class="main-card">
+          <!-- <h3 class="day-main">Today:</h3> -->
+          <div class="info-main">
+            <div class="label-main">
+              <img src="./src/assets/weather.svg" alt="sunny" class="icon-main" />
+              <!-- <div id="status-main">Status</div> -->
+              <div id="temperature-main">25&deg;C</div>
+                          <span class="city">London, Uk</span>
+
+            </div>
+            <span class="city">London, Uk</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="day">Today:</h3>
+          <div class="info">
+            <img src="./src/assets/weather.svg" alt="sunny" class="icon" />
+            <div class="label">
+              <div id="status">Status</div>
+              <div id="temperature">25&deg; / 30&deg; F</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="day">Tomorrow:</h3>
+          <div class="info">
+            <img src="./src/assets/weather.svg" alt="sunny" class="icon" />
+            <div class="label">
+              <div>Clear</div>
+              <div>0&deg; / 10&deg; F</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 class="day">Day 3:</h3>
+          <div class="info">
+            <img src="./src/assets/weather.svg" alt="sunny" class="icon" />
+            <div class="label">
+              <div>Clear</div>
+              <div>0&deg; / 10&deg; F</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./src/js/app.js"></script>
+  </body>
+</html>
